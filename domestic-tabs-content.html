@@ -48,6 +48,20 @@
                     </ul>
                   </div>
                 </div>
+                <div class="col-sm-12">
+                  <div class="channels-list regional_background_image">
+                    <ul class="row no-gutter">
+                      <!--Image Section-->
+                      <li *ngFor="let item of listOfTab2Info.listOfImage" class="col-xs-6 col-sm-4 col-md-3 rowBox">
+                        <a href="javascript:void(0);" class="rowBoxLogo">
+                          <div class="channels-img">
+                            <img [src]="item.imgUrl" class="img-responsive normal-state" alt="">
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
                 <div class="clearfix"></div>
               </div>
             </div>
