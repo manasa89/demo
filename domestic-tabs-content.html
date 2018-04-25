@@ -1,0 +1,103 @@
+ <!--Tab 1 Content-->
+            <div class="tab-pane fade in active" id="tab1">
+              <div class="tab-infos">
+                <div class="col-sm-12 channel-info">
+                  <aside>
+                    <h2>{{listOfTab1Info.title}}</h2>
+                    <p>{{listOfTab1Info.info}}</p>
+
+                  </aside>
+                </div>
+                <div class="col-sm-12">
+                  <div class="channels-list domestic_background_image">
+                    <ul class="row no-gutter">
+                      <!--Image Section-->
+                      <li *ngFor="let item of listOfTab1Info.listOfImage" class="col-xs-6 col-sm-4 col-md-3 rowBox">
+                        <a href="javascript:void(0);" class="rowBoxLogo">
+                          <div class="channels-img">
+                            <img [src]="item.imgUrl" class="img-responsive normal-state" alt="">
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Tab 2 Content-->
+            <div class="tab-pane fade" id="tab2">
+              <div class="tab-infos">
+                <!--We speak your Language Text container-->
+                <div class="col-sm-12 channel-info">
+                  <aside>
+                    <h2>{{listOfTab2Info.title}}</h2>
+                    <p>{{listOfTab2Info.info}}</p>
+                  </aside>
+                </div>
+                <div class="col-sm-12">
+                  <div class="channels-list regional_background_image">
+                    <ul class="row no-gutter">
+                      <!--Image Section-->
+                      <li *ngFor="let item of listOfTab2Info.listOfImage" class="col-xs-6 col-sm-4 col-md-3 rowBox">
+                        <a href="javascript:void(0);" class="rowBoxLogo">
+                          <div class="channels-img">
+                            <img [src]="item.imgUrl" class="img-responsive normal-state" alt="">
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade " id="tab3">
+              <div class="tab-infos">
+                <!--We speak your Language Text container-->
+                <div class="col-sm-12 channel-info">
+                  <aside>
+                    <h2>{{listOfTab3Info.title}}</h2>
+                    <p>{{listOfTab3Info.info}}</p>
+                  </aside>
+                </div>
+                <div class="col-sm-12">
+                  <div class="channels-list hindi_background_image">
+                    <ul class="row no-gutter">
+                      <!--Image Section-->
+                      <li *ngFor="let item of listOfTab3Info.listOfImage" class="col-xs-6 col-sm-4 col-md-3 rowBox">
+                        <a href="javascript:void(0);" class="rowBoxLogo">
+                          <div class="channels-img">
+                            <img [src]="item.imgUrl" class="img-responsive normal-state" alt="">
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade " id="tab4">
+              <div class="tab-infos">
+                <!--We speak your Language Text container-->
+                <div class="col-sm-12 channel-info">
+                  <aside>
+                    <h2>{{listOfTab4Info.title}}</h2>
+                    <p>{{listOfTab4Info.info}}</p>
+                  </aside>
+                </div>
+                <div class="col-sm-12">
+                  <div class="channels-list niche_background_image">
+                    <ul class="row no-gutter">
+                      <!--Image Section-->
+                      <li *ngFor="let item of listOfTab4Info.listOfImage" class="col-xs-6 col-sm-4 col-md-3 rowBox">
+                        <a href="javascript:void(0);" class="rowBoxLogo">
+                          <div class="channels-img">
+                            <img [src]="item.imgUrl" class="img-responsive normal-state" alt="">
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
